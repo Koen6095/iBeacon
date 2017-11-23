@@ -200,6 +200,8 @@ SWIFT_CLASS("_TtC11iBeaconTest11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+@class UILabel;
 @class CLLocationManager;
 @class CLBeacon;
 @class CLBeaconRegion;
@@ -208,6 +210,9 @@ SWIFT_CLASS("_TtC11iBeaconTest11AppDelegate")
 
 SWIFT_CLASS("_TtC11iBeaconTest14ViewController")
 @interface ViewController : UIViewController <CLLocationManagerDelegate>
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified ivPainting;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblPaintingName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified lblPainter;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;

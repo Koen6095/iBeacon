@@ -1,6 +1,8 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.72 clang-900.0.38)"
-options: "bdbaf50f30b4072e330c321f3e1f59d1"
-build_time: [1511428034, 74840000]
+options: "a6e372d7905ee8be426a0c8829e8bb6e"
+build_time: [1511434649, 832777000]
 inputs:
-  "/Users/Koen/Documents/1. Fontys/4.0.0 Leerjaar 4/4.1.0 Minor Open Innovations/iBeaconTest/iBeaconTest/ViewController.swift": [1511364776, 0]
-  "/Users/Koen/Documents/1. Fontys/4.0.0 Leerjaar 4/4.1.0 Minor Open Innovations/iBeaconTest/iBeaconTest/AppDelegate.swift": [1507889550, 0]
+  "/Users/Koen/Documents/6. Development/iBeaconTest/iBeaconTest/ViewController.swift": [1511434313, 0]
+  "/Users/Koen/Documents/6. Development/iBeaconTest/iBeaconTest/AppDelegate.swift": [1507889550, 0]
+  "/Users/Koen/Documents/6. Development/iBeaconTest/iBeaconTest/Beacon.swift": [1511432847, 0]
+  "/Users/Koen/Documents/6. Development/iBeaconTest/iBeaconTest/Painting.swift": [1511429370, 0]

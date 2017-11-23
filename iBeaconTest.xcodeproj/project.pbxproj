@@ -12,6 +12,11 @@
 		5D64E98F1F90C90E0055E260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D64E98D1F90C90E0055E260 /* Main.storyboard */; };
 		5D64E9911F90C90E0055E260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D64E9901F90C90E0055E260 /* Assets.xcassets */; };
 		5D64E9941F90C90E0055E260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D64E9921F90C90E0055E260 /* LaunchScreen.storyboard */; };
+		5DF3261E1FC6C8B70089F5D5 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3261D1FC6C8B70089F5D5 /* Beacon.swift */; };
+		5DF326201FC6CB490089F5D5 /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3261F1FC6CB490089F5D5 /* Painting.swift */; };
+		5DF326231FC6CE4E0089F5D5 /* Self_Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF326211FC6CE4D0089F5D5 /* Self_Portrait.png */; };
+		5DF326241FC6CE4E0089F5D5 /* Mona_Lisa.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF326221FC6CE4E0089F5D5 /* Mona_Lisa.png */; };
+		5DF326261FC6E1190089F5D5 /* Vincent_van_Gogh_Self_Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF326251FC6E1190089F5D5 /* Vincent_van_Gogh_Self_Portrait.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		5D64E9901F90C90E0055E260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D64E9931F90C90E0055E260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D64E9951F90C90E0055E260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF3261D1FC6C8B70089F5D5 /* Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		5DF3261F1FC6CB490089F5D5 /* Painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
+		5DF326211FC6CE4D0089F5D5 /* Self_Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Self_Portrait.png; sourceTree = "<group>"; };
+		5DF326221FC6CE4E0089F5D5 /* Mona_Lisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mona_Lisa.png; sourceTree = "<group>"; };
+		5DF326251FC6E1190089F5D5 /* Vincent_van_Gogh_Self_Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vincent_van_Gogh_Self_Portrait.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		5D64E9881F90C90E0055E260 /* iBeaconTest */ = {
 			isa = PBXGroup;
 			children = (
+				5DF326251FC6E1190089F5D5 /* Vincent_van_Gogh_Self_Portrait.png */,
 				5D64E9891F90C90E0055E260 /* AppDelegate.swift */,
 				5D64E98B1F90C90E0055E260 /* ViewController.swift */,
 				5D64E98D1F90C90E0055E260 /* Main.storyboard */,
 				5D64E9901F90C90E0055E260 /* Assets.xcassets */,
+				5DF326221FC6CE4E0089F5D5 /* Mona_Lisa.png */,
+				5DF326211FC6CE4D0089F5D5 /* Self_Portrait.png */,
 				5D64E9921F90C90E0055E260 /* LaunchScreen.storyboard */,
 				5D64E9951F90C90E0055E260 /* Info.plist */,
+				5DF3261D1FC6C8B70089F5D5 /* Beacon.swift */,
+				5DF3261F1FC6CB490089F5D5 /* Painting.swift */,
 			);
 			path = iBeaconTest;
 			sourceTree = "<group>";
@@ -125,7 +140,10 @@
 			files = (
 				5D64E9941F90C90E0055E260 /* LaunchScreen.storyboard in Resources */,
 				5D64E9911F90C90E0055E260 /* Assets.xcassets in Resources */,
+				5DF326231FC6CE4E0089F5D5 /* Self_Portrait.png in Resources */,
+				5DF326261FC6E1190089F5D5 /* Vincent_van_Gogh_Self_Portrait.png in Resources */,
 				5D64E98F1F90C90E0055E260 /* Main.storyboard in Resources */,
+				5DF326241FC6CE4E0089F5D5 /* Mona_Lisa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +156,8 @@
 			files = (
 				5D64E98C1F90C90E0055E260 /* ViewController.swift in Sources */,
 				5D64E98A1F90C90E0055E260 /* AppDelegate.swift in Sources */,
+				5DF3261E1FC6C8B70089F5D5 /* Beacon.swift in Sources */,
+				5DF326201FC6CB490089F5D5 /* Painting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

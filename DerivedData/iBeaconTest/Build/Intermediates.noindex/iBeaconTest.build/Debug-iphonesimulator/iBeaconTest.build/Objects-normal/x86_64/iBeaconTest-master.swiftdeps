@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.72 clang-900.0.38)"
-options: "937e1995b21e31c688726817142845e9"
-build_time: [1511364519, 73043000]
-inputs:
-  "/Users/Koen/Documents/1. Fontys/4.0.0 Leerjaar 4/4.1.0 Minor Open Innovations/iBeaconTest/iBeaconTest/ViewController.swift": [1507891162, 0]
-  "/Users/Koen/Documents/1. Fontys/4.0.0 Leerjaar 4/4.1.0 Minor Open Innovations/iBeaconTest/iBeaconTest/AppDelegate.swift": [1507889550, 0]

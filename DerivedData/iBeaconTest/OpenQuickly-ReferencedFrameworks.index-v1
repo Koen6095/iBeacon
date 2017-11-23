@@ -3,6 +3,7 @@
 <plist version="1.0">
 <array>
 	<string>UIKit</string>
+	<string>Foundation</string>
 	<string>CoreLocation</string>
 </array>
 </plist>
